@@ -38,7 +38,7 @@ class Solution:
                 no_lost.add(x)
             elif y==1:
                 one_lost.add(x)
-        #Total cost O(n)+O(n) = 2O(n)=> O(n)
+        #Total time cost O(n)+O(n)+O(log(n) = 2O(n) +O(log(n)=> O(n*log(n))
         ans.append(sorted(no_lost))
         ans.append(sorted(one_lost))
         #Space cost O(n)+O(n) = 2O(n)=> O(n)
